@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #0c1023;
+}
+header{
+    background-image: url(dinakdakan-wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 1 !important;
+    margin: 0 !important;
+    background-color: rgba(10, 10, 10, 0.3);
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+}
+nav li{
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav li span{
+    padding-left: 5px;
+}
+li a{
+    padding: 5px;
+    background-color: #eaa023;
+    text-decoration: none;
+}
+h1{
+    font-size: 20px;
+    color: #eaa023;
+    font-family: 'Dancing Script', cursive;
+    background-color: #0c1023;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.heading{
+    font-size: 30px;
+    color: #eaa023;
+    font-family: 'Dancing Script', cursive;
+    background-color: #0c1023;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 30px;
+    color: #eaa023;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px
+}
+.cart ion-icon{
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.cart a{
+    background-color: #eaa023;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container,
+.products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;;
+}
+.menu-item-title img{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 210px;
+}
+.menu-item-title{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #eaa023;
+    text-align: center;
+}
+.menu-item-title :hover{
+    color: white;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    color: #eaa023;
+    line-height: 1.0;
+    user-select: none;
+    border: none;
+    text-decoration: none;
+    margin-left: 22%;
+}
+.btn-default{
+    border: 2px solid #eaa023;
+}
+.btn-default:hover{
+    color: white;
+    background-color: #eaa023;
+}
+
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.products-container ion-icon{
+    font-size: 25px;
+    color: #eaa023;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.products-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #eaa023;
+    margin: 0 auto;
+}
+.product-title{
+    width: 45%;
+}
+.price{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    padding-right: 20%;
+}
+.quantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-right: 30%;
+}
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    padding-right: 25%;
+}
+
+.products{
+    display: grid; 
+    padding: 10px 0; 
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+.submit{
+    background-color: var(--dark);
+}
+.submit .row{
+    display: flex;
+    background:transparent;
+    margin: 2rem 0;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+.submit .row .image{
+    flex: 1 1 40%;
+}
+.submit .row .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.submit .row form{
+    flex: 1 1 60%;
+    background: transparent;
+    padding: 2rem;
+}
+.submit .row form .box{
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color:var(--white);
+    text-transform: none;
+    background: transparent;
+    width: 80%;
+}
+.submit .row form .box::placeholder{
+    text-transform: capitalize;
+}

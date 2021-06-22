@@ -1,0 +1,83 @@
+body{
+    background-image: url(pexels-photo-1435895.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.signup-box{
+    max-width: 600px;
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color:transparent;
+    border-radius: 3px;
+}
+.login-box{
+    max-width: 600px;
+    width: 360px;
+    height: 500px;
+    margin: auto;
+    background-color:transparent;
+    border-radius: 3px;
+}
+.bottom-text{
+    text-align: center;
+    padding: 25px;
+}
+.bottom-text a{
+   color: #0c1023;
+}
+.bottom-text a:hover{
+    color: #eaa023;
+ }
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border:1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #eaa023;
+    color: #0c1023;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2 a{
+    color: #0c1023;
+}
+.para-2 a:hover{
+    color: #eaa023;
+}
